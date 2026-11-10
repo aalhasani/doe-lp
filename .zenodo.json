@@ -1,0 +1,9 @@
+{
+  "title": "Code for: Solving Linear Programs with Design of Experiments: Extreme-Vertices Designs, Constrained Steepest Ascent, and Noisy Objectives",
+  "upload_type": "software",
+  "description": "Python code reproducing all tables and figures of the manuscript: extreme-vertices design and constrained steepest ascent routes to the LP optimum, comparison with the tableau simplex method, and the noisy-objective study. Test problems are from H. A. Taha, Operations Research: An Introduction, 10th ed.",
+  "creators": [{"name": "Alhasani, Ahmed Salem", "affiliation": "Umm Al-Qura University"}],
+  "license": "MIT",
+  "keywords": ["design of experiments", "linear programming", "simplex method", "response surface methodology", "extreme vertices design"],
+  "notes": "Funded by Umm Al-Qura University, Saudi Arabia, grant number 26UQU4400075GSSR05."
+}
