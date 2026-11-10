@@ -1,0 +1,236 @@
+[
+ {
+  "name": "P1 Reddy Mikks (Ex. 2.1-1)",
+  "kind": "Baseline",
+  "highs": 21.0,
+  "evd_status": "optimal",
+  "evd_z": 21.0,
+  "evd_x": [
+   3.0,
+   1.5
+  ],
+  "evd_runs": 6,
+  "evd_sys": 28,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 21.00000000000003,
+  "csa_x": [
+   3.0,
+   1.5
+  ],
+  "csa_st1": 0,
+  "csa_st2": 2,
+  "csa_drops": 2,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 21.0,
+  "sx_p1": 0,
+  "sx_p2": 2
+ },
+ {
+  "name": "P2 Diet (Ex. 2.2-2)",
+  "kind": "Minimization, >= rows",
+  "highs": 437.6470588235294,
+  "evd_status": "optimal",
+  "evd_z": 437.6470588235294,
+  "evd_x": [
+   470.5882,
+   329.4118
+  ],
+  "evd_runs": 5,
+  "evd_sys": 21,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 437.6470588235299,
+  "csa_x": [
+   470.5882,
+   329.4118
+  ],
+  "csa_st1": 1,
+  "csa_st2": 0,
+  "csa_drops": 0,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 437.6470588235294,
+  "sx_p1": 2,
+  "sx_p2": 0
+ },
+ {
+  "name": "P3 Equality (Ex. 3.4-1)",
+  "kind": "Equality + >= rows",
+  "highs": 3.4000000000000004,
+  "evd_status": "optimal",
+  "evd_z": 3.4000000000000004,
+  "evd_x": [
+   0.4,
+   1.8
+  ],
+  "evd_runs": 2,
+  "evd_sys": 6,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 3.399999999999982,
+  "csa_x": [
+   0.4,
+   1.8
+  ],
+  "csa_st1": 2,
+  "csa_st2": 1,
+  "csa_drops": 1,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 3.4000000000000004,
+  "sx_p1": 2,
+  "sx_p2": 1
+ },
+ {
+  "name": "P4 Degenerate (Ex. 3.5-1)",
+  "kind": "Degenerate optimum",
+  "highs": 18.0,
+  "evd_status": "optimal",
+  "evd_z": 18.0,
+  "evd_x": [
+   0.0,
+   2.0
+  ],
+  "evd_runs": 3,
+  "evd_sys": 15,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 18.0,
+  "csa_x": [
+   0.0,
+   2.0
+  ],
+  "csa_st1": 0,
+  "csa_st2": 2,
+  "csa_drops": 2,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 18.0,
+  "sx_p1": 0,
+  "sx_p2": 2
+ },
+ {
+  "name": "P5 Alternative optima (Ex. 3.5-2)",
+  "kind": "Alternative optima",
+  "highs": 10.0,
+  "evd_status": "optimal",
+  "evd_z": 10.0,
+  "evd_x": [
+   3.0,
+   1.0
+  ],
+  "evd_runs": 4,
+  "evd_sys": 15,
+  "evd_alt": 2,
+  "csa_status": "optimal",
+  "csa_z": 10.0,
+  "csa_x": [
+   0.0,
+   2.5
+  ],
+  "csa_st1": 0,
+  "csa_st2": 1,
+  "csa_drops": 1,
+  "csa_alt": true,
+  "sx_status": "optimal",
+  "sx_z": 10.0,
+  "sx_p1": 0,
+  "sx_p2": 1
+ },
+ {
+  "name": "P6 Unbounded (Ex. 3.5-3)",
+  "kind": "Unbounded",
+  "highs": "unbounded",
+  "evd_status": "unbounded",
+  "evd_z": 440.0,
+  "evd_x": [
+   20.0,
+   400.0
+  ],
+  "evd_runs": 5,
+  "evd_sys": 30,
+  "evd_alt": 1,
+  "csa_status": "unbounded",
+  "csa_z": 440.0,
+  "csa_x": [
+   20.0,
+   400.0
+  ],
+  "csa_st1": 0,
+  "csa_st2": 3,
+  "csa_drops": 3,
+  "csa_alt": false,
+  "sx_status": "unbounded",
+  "sx_z": 50.0,
+  "sx_p1": 0,
+  "sx_p2": 2
+ },
+ {
+  "name": "P7 Bank loan (Ex. 2.4-1)",
+  "kind": "Ratio constraints, n=5",
+  "highs": 0.99648,
+  "evd_status": "optimal",
+  "evd_z": 0.99648,
+  "evd_x": [
+   0.0,
+   0.0,
+   7.2,
+   -0.0,
+   4.8
+  ],
+  "evd_runs": 13,
+  "evd_sys": 2002,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 0.99648,
+  "csa_x": [
+   0.0,
+   0.0,
+   7.2,
+   0.0,
+   4.8
+  ],
+  "csa_st1": 0,
+  "csa_st2": 2,
+  "csa_drops": 2,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 0.9964799999999998,
+  "sx_p1": 0,
+  "sx_p2": 2
+ },
+ {
+  "name": "P8 Production (Ex. 2.4-2)",
+  "kind": "Engineering case, n=4",
+  "highs": 64625.0,
+  "evd_status": "optimal",
+  "evd_z": 64625.0,
+  "evd_x": [
+   800.0,
+   750.0,
+   387.5,
+   500.0
+  ],
+  "evd_runs": 19,
+  "evd_sys": 1820,
+  "evd_alt": 1,
+  "csa_status": "optimal",
+  "csa_z": 64624.999999998356,
+  "csa_x": [
+   800.0,
+   750.0,
+   387.5,
+   500.0
+  ],
+  "csa_st1": 0,
+  "csa_st2": 5,
+  "csa_drops": 5,
+  "csa_alt": false,
+  "sx_status": "optimal",
+  "sx_z": 64625.0,
+  "sx_p1": 0,
+  "sx_p2": 5
+ }
+]
